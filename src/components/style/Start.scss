@@ -1,0 +1,25 @@
+#Start{
+  padding: 50px 0;
+  background: rgb(0, 0, 0);
+  .Start{
+    p{
+      margin-top: 25px;
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      opacity: 0.5;
+    }
+    &--title{
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      h1{
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+        margin-left: 35px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,25 @@
+#Why{
+  padding: 100px 0;
+  background: rgb(0, 0, 0);
+  .Why{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &--title{
+      margin-top: 40px;
+      h1{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 140%;
+        color: #FFFFFF;
+      }
+      p{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #FFFFFF;
+      }
+    }
+  }
+}

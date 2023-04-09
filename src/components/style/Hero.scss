@@ -1,0 +1,43 @@
+#Hero{
+  padding: 170px 0;
+  background: url("../img/main-screen__bgc.svg") no-repeat center/cover;
+  .Hero{
+    margin-left: 80px;
+    h1{
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 140%;
+      color: #FFFFFF;
+    }
+    &--month{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-top: 40px;
+      &__time{
+        width: 102px;
+        height: 112px;
+        background: #121212;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 140%;
+          color: #FFFFFF;
+          text-align: center;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 140%;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.4;
+        }
+      }
+    }
+  }
+}

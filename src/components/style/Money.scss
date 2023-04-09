@@ -1,0 +1,65 @@
+#Money{
+  background: #121212;
+  padding: 30px 0;
+  .Money{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    p{
+      font-weight: 400;
+      font-size: 16px;
+      color: #FFFFFF;
+      opacity: 0.4;
+    }
+    h5{
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    h6{
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+      margin-left: 20px;
+    }
+    button{
+      width: 169px;
+      height: 44px;
+      background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      margin: 0 50px;
+    }
+    &--title{
+      margin: 0 70px;
+      &__flex{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+    }
+    &--million{
+      margin: 0 70px;
+      &__book{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+      }
+      &__liner{
+        width: 440px;
+        height: 6px;
+        background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
+      }
+      &__billion{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+#Header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 40px 0;
+  .Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    button{
+      width: 183px;
+      height: 44px;
+      background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+      border-radius: 50px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    &--icons{
+      a{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 20px;
+      }
+    }
+  }
+}
