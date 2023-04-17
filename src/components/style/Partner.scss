@@ -1,0 +1,19 @@
+#Partner{
+  padding: 90px 0;
+  background: rgb(0, 0, 0);
+  .Partner{
+    &--title{
+      display: flex;
+      align-items: center;
+      h1{
+        margin-left: 20px;
+        font-weight: 700;
+        font-size: 48px;
+        color: #FFFFFF;
+      }
+      img{
+        transform: rotate(154deg);
+      }
+    }
+  }
+}

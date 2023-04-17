@@ -7,6 +7,7 @@ import Why from "./components/Why";
 import Start from "./components/Start";
 import Gradient from "./components/Gradient";
 import Prof from "./components/Prof";
+import Partner from "./components/Partner";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Start/>
         <Gradient/>
         <Prof/>
+        <Partner/>
     </div>
   );
 }

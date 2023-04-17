@@ -1,5 +1,36 @@
 #Prof{
+  background: rgb(0, 0, 0);
   .Prof{
+    h1{
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 50px 0;
+    }
+    &--title{
+      padding-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &__icon{
+        text-align: center;
+        h1{
+          font-weight: 500;
+          font-size: 24px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+        p{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          text-align: center;
+          color: #FFFFFF;
+          opacity: 0.8;
+        }
+      }
 
+    }
   }
 }
